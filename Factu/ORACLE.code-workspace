@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Users/ag073/Dropbox/PC/Documents/Aequitectura"
+		},
+		{
+			"name": "letras",
+			"path": "../../../Users/ag073/Dropbox/PC/Documents/PlatformIO/Projects/letras"
+		},
+		{
+			"name": "Arduino",
+			"path": "../../../Users/ag073/Dropbox/PC/Documents/PlatformIO/Projects/Arduino"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Productos por Categoría</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #e8f5e9; /* Un verde claro para el fondo */
+            margin-top: 40px;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form-group label {
+            margin-bottom: 0.5em;
+        }
+        .form-control {
+            border-radius: 4px;
+            border: 1px solid #c8e6c9; /* Un verde para el borde de los inputs */
+        }
+        .btn-custom {
+            background-color: #43a047; /* Un verde más oscuro para los botones */
+            color: white;
+            padding: 0.5em 1.5em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #388e3c; /* Un verde aún más oscuro para el hover */
+        }
+        .header {
+            margin-bottom: 1em;
+            color: #2e7d32; /* Un verde para el título */
+        }
+        .btn-group {
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h2>Consulta de Productos por Categoría</h2>
+    </div>
+    <form action="consulta5.php" method="post">
+        <div class="form-group">
+            <label for="categoriaID">ID de Categoría:</label>
+            <input type="number" class="form-control" name="categoriaID" id="categoriaID">
+        </div>
+
+        <div class="btn-group">
+            <button type="submit" class="btn btn-custom" name="action" value="consultar">Consultar Productos</button>
+        </div>
+    </form>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
